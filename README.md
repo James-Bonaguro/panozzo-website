@@ -43,11 +43,11 @@ Here is what this version does differently, and the thinking behind each change:
 
 Here are the action items to make this prototype ready for a real launch:
 
-1. **Replace the placeholder Google reviews.** The reviews section has three cards with bracketed placeholder text. Go to your Google Business listing, pick your three best reviews, and swap them in. (Detailed instructions are in the companion notes file.)
+1. **Replace the placeholder Google reviews.** The reviews section has three cards with bracketed placeholder text. See the detailed instructions below.
 
-2. **Add photos.** The prototype has no images right now — it is all typography and layout. A photo of the funeral home exterior, a historic photo from the early days if you have one, and a portrait of you would make a big difference.
+2. **Add photos.** The prototype has no images right now — it is all typography and layout. See the photos section below for what to consider.
 
-3. **Write your anniversary message.** I know you have been trying to get around to this. I included a tip in the companion notes file — the short version is: go for a walk, come back and record yourself talking about what 100 years means to you for five minutes, transcribe it, and pull out the best three or four sentences. That becomes your message. It does not have to be polished — it has to be honest. If you want help shaping it after, send me the transcript.
+3. **Write your anniversary message.** I know you have been trying to get around to this. See the step-by-step method below — it is low-pressure and takes about 15 minutes.
 
 4. **Verify the Facebook link.** The footer links to facebook.com/panozzobros — make sure that is the correct URL for your page.
 
@@ -56,21 +56,70 @@ Here are the action items to make this prototype ready for a real launch:
 6. **Decide if you want to move forward.** This is a prototype to show you what is possible. If you like the direction, the next step is turning this into your live site.
 
 
-## Additional Notes
+## How to Write Your Anniversary Message
 
-There is a companion file called "notes-for-allen.html" included with this prototype. Open it in your browser the same way you open the homepage. It has detailed, step-by-step instructions for:
+The homepage has copy that captures the facts about your family's 100 years, but the anniversary really deserves something in your own voice. I know you keep trying to get around to writing it. Here is a low-pressure way to get there:
 
-- How to write your anniversary message (the walk and transcribe method)
-- How to copy your Google reviews into the site
-- What photos to consider adding
-- Technical details about the files if you or a web developer need them
+1. **Go for a walk.** No phone, no notes. Just let your mind wander about what 100 years means — what your grandfather started, what Larry and Dennis built, and what you want the next chapter to look like.
+2. **When you get back, record yourself.** Open your phone's voice recorder and talk for 5–10 minutes. Do not try to be polished. Just talk like you are telling a friend.
+3. **Transcribe it.** Use your phone's built-in speech-to-text, or a free tool like Otter.ai. You will have a rough transcript in minutes.
+4. **Pull out the 3–4 sentences that feel most honest.** Read it back and highlight the parts that sound like you. That is the real stuff.
+5. **That becomes your anniversary message.** We can drop it into the hero section or the about section of the homepage. It does not have to be long — 3–5 sentences from the heart is more powerful than a full page of polished copy.
+
+**Quick version:** Walk, record yourself talking, transcribe, pull out the best 3–4 lines, done.
+
+If you want help cleaning it up after, just send me the transcript and I can shape it for the site.
+
+
+## How to Replace the Placeholder Google Reviews
+
+The Google Reviews section on the homepage has 3 review cards with placeholder text in brackets. These are obviously fake and need to be replaced with your real reviews. Here is how:
+
+1. Search "Panozzo Bros Funeral Home" on Google Maps
+2. Click on your business listing
+3. Click on your reviews
+4. Pick the 3 reviews that best represent what families say about you
+5. Copy the review text and the reviewer's first name
+6. Replace the bracketed placeholder text in each review card with the real text and name
+
+That is it. Three real reviews on your homepage makes a huge difference — families see social proof before they even pick up the phone.
+
+**Going forward:** Consider asking families if they would be willing to leave a Google review after services. Most people are happy to — they just need to be asked. A simple follow-up card or email with a direct link to your Google review page goes a long way. The more reviews you collect, the stronger your online presence becomes.
+
+
+## Photos to Add
+
+The design looks clean without photos, but it would look even better with a few real images. Here is what I would recommend:
+
+- **Funeral home exterior** — A current photo of the building on 14th Street. This is the first thing families see when they drive up, and it should be what they see on the site too.
+- **Historic photo** — If you have anything from the early days on 115th Street in Roseland, that would be incredible for the heritage section. Even an old family photo from that era would work.
+- **Portrait of you (Allen)** — A professional headshot or even a good candid for the about section. Families want to see who they are working with.
+- **Family photos** — Anything of Larry, Dennis, or Dan that the family would want to share publicly. These would be powerful in the heritage section next to the three-generation story.
+
+
+## Links to Verify
+
+Before this goes live, double-check these:
+
+- **Facebook:** The footer links to facebook.com/panozzobros — verify this is the correct URL for your Facebook page and update it if needed.
+- **Obituaries:** The obituary buttons link to panozzobros.com/obituaries — verify this is the correct path on your current live site.
+
+
+## What This Prototype Is (and Is Not)
+
+- This **is** a working static homepage you can open in any browser — on your phone, tablet, or computer.
+- This **is** a starting point that shows what a modern, polished version of your site could look like.
+- This **is not** connected to your current website or hosting — it is a standalone prototype.
+- There is no backend, no forms, no database — just clean HTML and CSS that can be deployed anywhere.
+- To preview it, just open the file called "index.html" in your browser. Double-click it and it opens.
+- To deploy it as your real site, upload the files to any web host — your current host, or a free option like Netlify or GitHub Pages.
 
 
 ## Files Included
 
 - **index.html** — The homepage. Open this in any browser to preview.
 - **styles.css** — The design and layout. You do not need to touch this unless you are making design changes.
-- **notes-for-allen.html** — Detailed instructions and tips. Open this in your browser.
+- **notes-for-allen.html** — A nicely formatted version of these same notes that you can open in your browser.
 - **images/** — An empty folder ready for photos when you have them.
 
 ---
