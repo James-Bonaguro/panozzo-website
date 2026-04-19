@@ -3,447 +3,822 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Panozzo Bros. Funeral Home | Celebrating 100 Years | Chicago Heights, IL</title>
-  <meta
-    name="description"
-    content="Panozzo Bros. Funeral Home has served families in Chicago Heights and the Southland since 1926. Now in our third generation, we offer funeral services, cremation options, obituary access, and pre-planning guidance. Call (708) 481-9230."
-  />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="styles.css" />
+  <title>How a 100-Year Family Funeral Home Builds Trust Online</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      background-color: #F8FAFC;
+      color: #0F172A;
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+    .bg-primary-dark { background-color: #0F172A; }
+    .bg-primary-accent { background-color: #0D9488; }
+    .text-primary-accent { color: #0D9488; }
+    .bg-secondary-accent { background-color: #D97706; }
+    .border-accent { border-color: #0D9488; }
+
+    .chart-container {
+      position: relative;
+      width: 100%;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 350px;
+      max-height: 400px;
+    }
+    @media (min-width: 768px) {
+      .chart-container {
+        height: 400px;
+      }
+    }
+    .card {
+      background-color: #FFFFFF;
+      border-radius: 0.75rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .table-cell {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid #E2E8F0;
+    }
+    .table-header {
+      background-color: #F1F5F9;
+      font-weight: 600;
+      text-align: left;
+      color: #334155;
+    }
+  </style>
 </head>
-<body>
-  <div class="site-shell">
-    <div class="topbar">
-      <div class="container topbar__inner">
-        <p>Available 24 hours &middot; Call any time</p>
-        <div class="topbar__actions">
-          <a href="tel:7084819230">(708) 481-9230</a>
-          <span aria-hidden="true"></span>
-          <p>530 W. 14th Street (Rt. 30), Chicago Heights, IL</p>
+<body class="antialiased">
+
+  <nav class="bg-primary-dark text-white sticky top-0 z-50 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center">
+          <span class="font-bold text-xl tracking-tight">Digital Blueprint 2026: Panozzo Bros.</span>
+        </div>
+        <div class="hidden md:block">
+          <div class="ml-10 flex items-baseline space-x-4 text-sm font-medium">
+            <a href="#summary" class="hover:text-primary-accent px-3 py-2">Executive Summary</a>
+            <a href="#scorecard" class="hover:text-primary-accent px-3 py-2">Scorecard</a>
+            <a href="#competitors" class="hover:text-primary-accent px-3 py-2">Competitor Profiles</a>
+            <a href="#tools" class="hover:text-primary-accent px-3 py-2">Tech Trade-offs</a>
+            <a href="#action" class="hover:text-primary-accent px-3 py-2">Action Plan</a>
+          </div>
         </div>
       </div>
     </div>
+  </nav>
 
-    <header class="site-header">
-      <div class="container site-header__inner">
-        <a class="brand" href="#top" aria-label="Panozzo Bros. Funeral Home home">
-          <span class="brand__eyebrow">Chicago Heights, Illinois</span>
-          <span class="brand__name">Panozzo Bros.</span>
-          <span class="brand__sub">Funeral Home</span>
-        </a>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
-        <button
-          class="nav-toggle"
-          type="button"
-          aria-expanded="false"
-          aria-controls="site-nav"
-          aria-label="Toggle navigation"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-
-        <nav class="site-nav" id="site-nav" aria-label="Primary">
-          <a href="#heritage">Our Story</a>
-          <a href="#reviews">Reviews</a>
-          <a href="#services">Services</a>
-          <a href="#guidance">Immediate Need</a>
-          <a href="#planning">Pre-Planning</a>
-          <a href="#remembrance">Obituaries</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-primary-dark mb-4">How a 100-Year Family Funeral Home Builds Trust Online</h1>
+      <p class="text-xl text-slate-600 max-w-3xl mx-auto">
+        A 2026 competitive digital analysis of funeral homes in the southwest Chicago suburbs, using Panozzo Bros. Funeral Home as the benchmark for how a long-standing family business can strengthen trust online without becoming cold or transactional.
+      </p>
     </header>
 
-    <main id="top">
-      <section class="hero">
-        <div class="container hero__grid">
-          <div class="hero__content">
-            <p class="section-kicker">1926 &ndash; 2026 &middot; Our Centennial Year</p>
-            <h1>Celebrating 100 Years of Family Service</h1>
-            <p class="hero__lede">
-              For a century, Panozzo Bros. Funeral Home has guided families through life's
-              most difficult moments. Founded in 1926 by Dionisio &ldquo;Dan&rdquo; Panozzo,
-              we remain a family-owned funeral home&mdash;now in our third generation&mdash;serving
-              Chicago Heights and surrounding communities with the same compassion we started with.
-            </p>
-            <div class="hero__actions">
-              <a class="button button--primary" href="#guidance">What To Do Now</a>
-              <a class="button button--secondary" href="#remembrance">View Obituaries</a>
-            </div>
-            <div class="hero__trust">
+    <section id="summary" class="mb-16">
+      <div class="card border-t-4 border-accent">
+        <h2 class="text-3xl font-bold mb-6 text-primary-dark">A. Executive Summary: Top 10 Insights</h2>
+        <p class="text-slate-700 mb-6 text-lg">
+          The local market shows a clear split. Some competitors lean heavily into polished digital convenience, while the better independents still center family trust, warmth, and local reputation. Panozzo Bros. already has a rare advantage that cannot be manufactured: a real 100-year family story. The opportunity is not to become the most high-tech funeral home in the area. The opportunity is to present that story, reputation, and level of care more clearly online.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+            <div class="flex items-start">
+              <span class="text-primary-accent text-2xl mr-3">❶</span>
               <div>
-                <strong>Three Generations, One Family</strong>
-                <span>Founded in 1926 and still family-owned. Allen Panozzo continues the tradition started by his grandfather.</span>
+                <h3 class="font-bold text-slate-800">Trust Is the Core Advantage</h3>
+                <p class="text-sm text-slate-600">Panozzo’s strongest differentiator is not technology. It is family continuity, local reputation, and the sense that families are dealing with people they can trust.</p>
               </div>
+            </div>
+          </div>
+
+          <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+            <div class="flex items-start">
+              <span class="text-primary-accent text-2xl mr-3">❷</span>
               <div>
-                <strong>Available 24 Hours</strong>
-                <span>Call <a href="tel:7084819230">(708) 481-9230</a> any time. We are here when your family needs us.</span>
+                <h3 class="font-bold text-slate-800">The 100-Year Story Should Lead</h3>
+                <p class="text-sm text-slate-600">Many competitors talk about legacy. Panozzo actually has a deeper story than most of them, but that story needs to carry more weight on the homepage and throughout the site.</p>
               </div>
             </div>
           </div>
 
-          <div class="hero__visual" aria-hidden="true">
-            <div class="hero-card">
-              <p class="hero-card__eyebrow">Serving Families Since 1926</p>
-              <div class="hero-card__frame">
-                <div class="anniversary-badge">
-                  <span class="anniversary-badge__number">100</span>
-                  <span class="anniversary-badge__label">Years</span>
-                  <span class="anniversary-badge__dates">1926 &ndash; 2026</span>
-                </div>
-              </div>
-              <div class="hero-card__details">
-                <div class="hero-card__address">
-                  <p>Panozzo Bros. Funeral Home</p>
-                  <p>530 W. 14th Street (Rt. 30)</p>
-                  <p>Chicago Heights, IL 60411</p>
-                </div>
-                <div class="hero-card__signature">
-                  <span></span>
-                  <p>Three generations of compassionate service</p>
-                </div>
+          <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+            <div class="flex items-start">
+              <span class="text-primary-accent text-2xl mr-3">❸</span>
+              <div>
+                <h3 class="font-bold text-slate-800">Technology Should Support the Relationship</h3>
+                <p class="text-sm text-slate-600">Competitors are adding pricing tools, online forms, and digital systems, but those only make sense when they support trust rather than replace the personal relationship families are actually looking for.</p>
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      <section class="trust-strip">
-        <div class="container trust-strip__grid">
-          <article>
-            <p class="trust-strip__label">Immediate Assistance</p>
-            <h2>Here when you call</h2>
-            <p>Day or night, we answer the phone. Call <a href="tel:7084819230">(708) 481-9230</a> for immediate help with arrangements.</p>
-          </article>
-          <article>
-            <p class="trust-strip__label">Services</p>
-            <h2>Funeral &amp; cremation</h2>
-            <p>Traditional funeral services, cremation options, memorial gatherings, and personalized tributes for every family.</p>
-          </article>
-          <article>
-            <p class="trust-strip__label">Obituaries</p>
-            <h2>Current notices</h2>
-            <p>View obituaries, service times, and visitation details for families currently in our care.</p>
-          </article>
-          <article>
-            <p class="trust-strip__label">Pre-Planning</p>
-            <h2>Plan ahead with us</h2>
-            <p>Document your wishes, protect your family from difficult decisions, and lock in today's costs.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section section--heritage" id="heritage">
-        <div class="container story">
-          <div class="story__content">
-            <p class="section-kicker">Our Story</p>
-            <h2>A Century of Serving Families in the Southland</h2>
-            <p>
-              In 1926, Dionisio &ldquo;Dan&rdquo; Panozzo and his brother Louis opened a funeral home
-              in Chicago&rsquo;s Roseland neighborhood on 115th Street. Immigrants from Treschè Conca
-              in the Veneto region of Italy, the Panozzo brothers built their reputation serving the
-              families of St. Anthony of Padua parish and the broader Italian-American community.
-              They lived above the funeral home, and the business became a pillar of the neighborhood&mdash;donating
-              parish calendars every New Year&rsquo;s Day and quietly supporting parish events for decades.
-            </p>
-            <p>
-              The family eventually moved the business to its current home at 530 W. 14th Street
-              in Chicago Heights. The second generation&mdash;Lawrence &ldquo;Larry&rdquo; Panozzo,
-              who served 67 years as a funeral director and was known for greeting every family from
-              his stool at the front door, and Dennis P. Panozzo, who dedicated 63 years to the
-              profession and was deeply involved in Italian-American civic organizations&mdash;carried
-              the tradition forward with quiet devotion.
-            </p>
-            <p>
-              Today, Allen Panozzo leads the firm as the third-generation director. A former senior
-              auditor at Deloitte, Allen brings both professional rigor and the personal warmth his
-              family has been known for across a century of service. Even after leaving Roseland,
-              former residents of Roseland, Pullman, and Kensington frequently choose to come back
-              to Panozzo Bros. for funerals&mdash;a testament to the trust this family has built
-              over 100 years.
-            </p>
-          </div>
-          <aside class="story__panel">
-            <h3>Three Generations of Care</h3>
-            <ul>
-              <li>Founded 1926 by Dionisio &ldquo;Dan&rdquo; and Louis Panozzo</li>
-              <li>Roots in Chicago&rsquo;s Roseland neighborhood and St. Anthony of Padua parish</li>
-              <li>67 years of service by Lawrence &ldquo;Larry&rdquo; Panozzo</li>
-              <li>63 years of service by Dennis P. Panozzo</li>
-              <li>Third generation led by Allen Panozzo</li>
-              <li>Still family-owned after 100 years</li>
-            </ul>
-          </aside>
-        </div>
-      </section>
-
-      <section class="section section--reviews" id="reviews">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">What Families Are Saying</p>
-            <h2>Trusted by families across the Southland.</h2>
-            <p>
-              Read what families have shared about their experience with Panozzo Bros. on Google.
-            </p>
-          </div>
-
-          <div class="reviews-grid">
-            <article class="review-card">
-              <div class="review-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <p class="review-card__text">
-                &ldquo;[Placeholder &mdash; Replace with a real Google review. Example: The Panozzo
-                family made an incredibly difficult time so much easier for us. Their compassion and
-                professionalism were evident in every detail.]&rdquo;
-              </p>
-              <div class="review-card__author">
-                <span class="review-card__name">&mdash; Family Name</span>
-                <span class="review-card__source">Google Review</span>
+          <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+            <div class="flex items-start">
+              <span class="text-primary-accent text-2xl mr-3">❹</span>
+              <div>
+                <h3 class="font-bold text-slate-800">Mobile Matters More Than Ever</h3>
+                <p class="text-sm text-slate-600">A lot of families are looking from their phones, often quickly and under stress. The mobile experience needs to feel simple, calm, and immediately useful.</p>
               </div>
-            </article>
-            <article class="review-card">
-              <div class="review-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <p class="review-card__text">
-                &ldquo;[Placeholder &mdash; Replace with a real Google review. Example: We have used
-                Panozzo Bros. for three generations of our family. Allen carries on the same personal
-                touch that Larry and Dennis were known for.]&rdquo;
-              </p>
-              <div class="review-card__author">
-                <span class="review-card__name">&mdash; Family Name</span>
-                <span class="review-card__source">Google Review</span>
-              </div>
-            </article>
-            <article class="review-card">
-              <div class="review-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <p class="review-card__text">
-                &ldquo;[Placeholder &mdash; Replace with a real Google review. Example: From the
-                first phone call to the last detail of the service, everything was handled with
-                dignity and care. We cannot recommend them enough.]&rdquo;
-              </p>
-              <div class="review-card__author">
-                <span class="review-card__name">&mdash; Family Name</span>
-                <span class="review-card__source">Google Review</span>
-              </div>
-            </article>
-          </div>
-
-          <div class="reviews-cta">
-            <a class="button button--secondary" href="https://www.google.com/maps/place/Panozzo+Bros+Funeral+Home/" target="_blank" rel="noreferrer">See All Reviews on Google</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="services">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">Services</p>
-            <h2>How We Help Families</h2>
-            <p>
-              Whether you are making arrangements today or planning for the future, we offer
-              personal guidance through every step.
-            </p>
-          </div>
-
-          <div class="services-grid">
-            <article class="service-card">
-              <h3>Funeral Services</h3>
-              <p>
-                We coordinate every detail of traditional funeral services, including visitation,
-                church services, and graveside ceremonies. Our family works directly with yours
-                to honor your loved one in a way that feels right.
-              </p>
-              <a href="#contact">Learn More</a>
-            </article>
-            <article class="service-card">
-              <h3>Cremation Options</h3>
-              <p>
-                We offer a full range of cremation services, from simple cremation to cremation
-                with a memorial gathering. We will walk you through every option so you can
-                choose what fits your family's wishes.
-              </p>
-              <a href="#contact">Learn More</a>
-            </article>
-            <article class="service-card">
-              <h3>Obituaries &amp; Notices</h3>
-              <p>
-                View current obituaries, service times, and visitation details. We help families
-                craft meaningful notices that honor the life lived.
-              </p>
-              <a href="https://panozzobros.com/obituaries" target="_blank" rel="noreferrer">View Obituaries</a>
-            </article>
-            <article class="service-card">
-              <h3>Pre-Planning</h3>
-              <p>
-                Planning ahead relieves your family of difficult decisions during an emotional
-                time. We offer pre-arrangement consultations to help you document your wishes
-                and make financial preparations.
-              </p>
-              <a href="#planning">Start Planning</a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section--guidance" id="guidance">
-        <div class="container guidance">
-          <div class="guidance__intro">
-            <p class="section-kicker">Immediate Need</p>
-            <h2>If a Death Has Occurred, We Are Here to Help</h2>
-            <p>
-              You do not need to have answers right now. Call us at
-              <a href="tel:7084819230">(708) 481-9230</a> and we will guide you through
-              each next step with patience and care. We are available day and night.
-            </p>
-          </div>
-
-          <div class="guidance__steps">
-            <article class="guidance-step">
-              <span>01</span>
-              <h3>Call us at (708) 481-9230</h3>
-              <p>Day or night, we answer. We will ask a few simple questions and begin making arrangements so your family does not have to navigate this alone.</p>
-            </article>
-            <article class="guidance-step">
-              <span>02</span>
-              <h3>We handle the details</h3>
-              <p>From transportation and permits to coordinating with your church or cemetery, we take care of the logistics so you can focus on your family.</p>
-            </article>
-            <article class="guidance-step">
-              <span>03</span>
-              <h3>Plan the service together</h3>
-              <p>We will sit down with you to plan a visitation, funeral, or memorial that reflects your loved one's life and your family's traditions.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section--planning" id="planning">
-        <div class="container planning">
-          <div class="planning__panel">
-            <p class="section-kicker">Pre-Planning</p>
-            <h2>Give Your Family the Gift of a Plan</h2>
-            <p>
-              Pre-planning your funeral arrangements is one of the most thoughtful things you
-              can do for the people you love. It ensures your wishes are known, relieves your
-              family of difficult decisions, and can help manage costs. There is no obligation
-              and no pressure&mdash;just a conversation when you are ready.
-            </p>
-            <a class="button button--primary" href="#contact">Start A Conversation</a>
-          </div>
-          <div class="planning__notes">
-            <div class="planning-note">
-              <h3>Document your wishes</h3>
-              <p>Choose the type of service, music, readings, and personal touches that matter to you. We keep everything on file so nothing is left to guesswork.</p>
-            </div>
-            <div class="planning-note">
-              <h3>Protect your family financially</h3>
-              <p>Pre-funded arrangements lock in today's costs and spare your family from making financial decisions while grieving. We will explain every option clearly.</p>
             </div>
           </div>
-        </div>
-      </section>
 
-      <section class="section section--remembrance" id="remembrance">
-        <div class="container remembrance">
-          <div class="section-heading section-heading--split">
-            <div>
-              <p class="section-kicker">Obituaries &amp; Remembrance</p>
-              <h2>Remembering Those We Have Served</h2>
+          <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+            <div class="flex items-start">
+              <span class="text-primary-accent text-2xl mr-3">❺</span>
+              <div>
+                <h3 class="font-bold text-slate-800">Reviews Are Digital Word-of-Mouth</h3>
+                <p class="text-sm text-slate-600">Several competitors do a better job pulling family feedback forward online. Strong Google reviews can reinforce the same trust Allen has built in person over the years.</p>
+              </div>
             </div>
-            <a class="button button--secondary" href="https://panozzobros.com/obituaries" target="_blank" rel="noreferrer">View Obituaries</a>
           </div>
 
-          <div class="remembrance__grid">
-            <article class="remembrance-card remembrance-card--feature">
-              <p class="remembrance-card__kicker">Current Obituaries</p>
-              <h3>View recent obituaries and service information</h3>
-              <p>
-                Find visitation times, service details, and ways to share condolences for
-                families currently in our care. All notices are available on our obituary page.
-              </p>
-            </article>
-            <article class="remembrance-card">
-              <h3>Share a memory</h3>
-              <p>Our obituary pages allow friends and family to leave personal tributes, share stories, and send condolences from anywhere.</p>
-            </article>
-            <article class="remembrance-card">
-              <h3>Service details &amp; directions</h3>
-              <p>Each obituary includes complete service times, locations, and directions so you can be there when it matters.</p>
-            </article>
+          <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+            <div class="flex items-start">
+              <span class="text-primary-accent text-2xl mr-3">❻</span>
+              <div>
+                <h3 class="font-bold text-slate-800">Service Area Clarity Helps Build Relevance</h3>
+                <p class="text-sm text-slate-600">The business serves more than just one immediate location, but the broader reach is not always obvious online. That can make nearby families less likely to realize Panozzo serves them too.</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
 
-      <section class="communities-strip">
-        <div class="container">
-          <p class="communities-strip__label">Proudly Serving</p>
-          <p class="communities-strip__list">
-            Chicago Heights &middot; Orland Park &middot; Tinley Park &middot; Mokena &middot;
-            Homer Glen &middot; Frankfort &middot; Orland Hills &middot; Palos Hills &middot;
-            Lansing
-            <span class="communities-strip__legacy">&mdash; and the historic Roseland, Pullman, and Kensington neighborhoods of Chicago where our story began.</span>
-          </p>
-        </div>
-      </section>
-    </main>
+          <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+            <div class="flex items-start">
+              <span class="text-primary-accent text-2xl mr-3">❼</span>
+              <div>
+                <h3 class="font-bold text-slate-800">Photos Do More Than Decorate</h3>
+                <p class="text-sm text-slate-600">Authentic photos of the family, building, and history make a funeral home feel real and reassuring. In this category, strong imagery helps reduce uncertainty and builds comfort quickly.</p>
+              </div>
+            </div>
+          </div>
 
-    <footer class="site-footer" id="contact">
-      <div class="container footer">
-        <div class="footer__intro">
-          <p class="section-kicker">Contact</p>
-          <h2>Panozzo Bros. Funeral Home</h2>
-          <p>
-            Serving families in Chicago Heights and the greater Southland since 1926. Call us
-            any time for immediate assistance, service information, or to begin pre-planning.
-          </p>
-          <div class="footer__social">
-            <a href="https://www.facebook.com/panozzobros" target="_blank" rel="noreferrer" aria-label="Panozzo Bros. on Facebook">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-              Facebook
-            </a>
+          <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+            <div class="flex items-start">
+              <span class="text-primary-accent text-2xl mr-3">❽</span>
+              <div>
+                <h3 class="font-bold text-slate-800">Obituaries Are a Major Entry Point</h3>
+                <p class="text-sm text-slate-600">For many families, obituary pages are one of the main ways they first encounter a funeral home site. Those pages should connect naturally to the broader trust story and make next steps easy.</p>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div class="footer__details">
-          <div>
-            <h3>Address</h3>
-            <p>530 W. 14th Street (Rt. 30)</p>
-            <p>Chicago Heights, Illinois 60411</p>
+          <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+            <div class="flex items-start">
+              <span class="text-primary-accent text-2xl mr-3">❾</span>
+              <div>
+                <h3 class="font-bold text-slate-800">Pre-Planning Should Feel Human, Not Clinical</h3>
+                <p class="text-sm text-slate-600">Planning ahead is important, but the framing matters. The strongest sites make it feel like guidance and peace of mind, not just a form to fill out.</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <h3>Phone</h3>
-            <p><a href="tel:7084819230">(708) 481-9230</a></p>
-            <p>Call for immediate assistance or planning inquiries.</p>
-          </div>
-          <div>
-            <h3>Email</h3>
-            <p><a href="mailto:panozzo@panozzobros.com">panozzo@panozzobros.com</a></p>
-            <p>For general questions and follow-up communication.</p>
-          </div>
-          <div>
-            <h3>Communities Served</h3>
-            <p>Chicago Heights, Orland Park, Tinley Park, Mokena, Homer Glen, Frankfort, Orland Hills, Palos Hills, Lansing</p>
+
+          <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+            <div class="flex items-start">
+              <span class="text-primary-accent text-2xl mr-3">❿</span>
+              <div>
+                <h3 class="font-bold text-slate-800">Hybrid Solutions Often Make the Most Sense</h3>
+                <p class="text-sm text-slate-600">Some newer tools solve real problems, but they do not have to replace the traditional experience. In several cases, offering both options may fit the Panozzo style best.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </section>
+
+    <section id="scorecard" class="mb-16">
+      <div class="card">
+        <h2 class="text-3xl font-bold mb-4 text-primary-dark">B. Competitor Scorecard</h2>
+        <p class="text-slate-700 mb-8">
+          This scorecard compares key local competitors across trust, legacy, reviews, service clarity, and digital presentation. The goal is not to reward the “most modern” site. The goal is to understand which sites create reassurance, which ones feel more transactional, and where Panozzo can strengthen its position without losing its identity.
+        </p>
+
+        <div class="overflow-x-auto mb-8">
+          <table class="w-full text-sm text-left border-collapse">
+            <thead>
+              <tr>
+                <th class="table-cell table-header">Competitor</th>
+                <th class="table-cell table-header text-center" title="Family Legacy Storytelling">Legacy</th>
+                <th class="table-cell table-header text-center" title="Trust / Reassurance">Trust</th>
+                <th class="table-cell table-header text-center" title="Reviews / Testimonials">Reviews</th>
+                <th class="table-cell table-header text-center" title="Service-Area Positioning">Local Geo</th>
+                <th class="table-cell table-header text-center" title="Digital Clarity & Ease of Use">UX Quality</th>
+                <th class="table-cell table-header text-center" title="Pre-planning Clarity">Pre-Plan</th>
+                <th class="table-cell table-header text-center" title="Immediate-need Clarity">Immediate</th>
+                <th class="table-cell table-header text-center" title="Emotional Warmth">Warmth</th>
+                <th class="table-cell table-header text-center" title="Risk of Feeling Transactional (Lower is better)">Trans. Risk</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="bg-blue-50 font-semibold border-l-4 border-blue-600">
+                <td class="table-cell">Panozzo Bros. (Current)</td>
+                <td class="table-cell text-center text-primary-accent">4</td>
+                <td class="table-cell text-center text-primary-accent">5</td>
+                <td class="table-cell text-center">2</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center text-red-500">3</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center text-primary-accent">5</td>
+                <td class="table-cell text-center text-green-600">1 (Low)</td>
+              </tr>
+              <tr>
+                <td class="table-cell">Robt. J. Sheehy &amp; Sons</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">2</td>
+              </tr>
+              <tr>
+                <td class="table-cell">Colonial Chapel</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">3</td>
+              </tr>
+              <tr>
+                <td class="table-cell">Vandenberg</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">2</td>
+              </tr>
+              <tr>
+                <td class="table-cell">Modell Funeral Home</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">2</td>
+              </tr>
+              <tr class="bg-slate-100">
+                <td class="table-cell font-medium">Orland FH (Dignity/SCI)</td>
+                <td class="table-cell text-center text-red-500">1</td>
+                <td class="table-cell text-center">2</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">5</td>
+                <td class="table-cell text-center text-primary-accent">5</td>
+                <td class="table-cell text-center">5</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center text-red-500">1</td>
+                <td class="table-cell text-center text-red-600">5 (High)</td>
+              </tr>
+              <tr>
+                <td class="table-cell">Brady-Gill</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">3</td>
+              </tr>
+              <tr>
+                <td class="table-cell">Lawn Funeral Home</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">4</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">5</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">3</td>
+                <td class="table-cell text-center">3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-xl font-bold text-center mb-2">Digital Clarity vs. Emotional Warmth</h3>
+            <p class="text-sm text-center text-slate-500 mb-4">Comparing ease of use with trust and human reassurance</p>
+            <div class="chart-container">
+              <canvas id="scatterChart"></canvas>
+            </div>
+            <p class="text-sm text-slate-600 mt-4">
+              This chart shows a real tension in the category. Some funeral home sites are highly optimized and polished, but feel more corporate and transactional. Panozzo is already strong on warmth and trust. The opportunity is to improve clarity and usability without losing that core identity.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-bold text-center mb-2">Panozzo vs. Key Competitor Types</h3>
+            <p class="text-sm text-center text-slate-500 mb-4">Comparing trust, legacy, and digital presentation</p>
+            <div class="chart-container">
+              <canvas id="radarChart"></canvas>
+            </div>
+            <p class="text-sm text-slate-600 mt-4">
+              This comparison highlights the main opening for Panozzo: the business already has stronger trust and legacy than most competitors, but can present those strengths more clearly online.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competitors" class="mb-16">
+      <h2 class="text-3xl font-bold mb-6 text-primary-dark">C. Competitor Profiles</h2>
+      <p class="text-slate-700 mb-8 text-lg">
+        This section looks at how nearby funeral homes present themselves online, what they emphasize, and where Panozzo has an opportunity to stand apart without simply copying them.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+
+        <div class="card hover:shadow-xl transition-shadow border-t-4 border-blue-500">
+          <h3 class="font-bold text-xl mb-1">Robert J. Sheehy &amp; Sons</h3>
+          <p class="text-sm text-slate-500 mb-4">Status: Strong Local Independent</p>
+          <div class="space-y-3 text-sm">
+            <p><strong>Positioning:</strong> Strong family-oriented presentation with a polished independent feel. The message is warm, organized, and clearly built around family care.</p>
+            <p><strong>Trust Signals:</strong> Prominent facility imagery, visible reviews, and a clear family-service message help reinforce credibility quickly.</p>
+            <p><strong>UX Quality:</strong> Clean, mobile-friendly, and easy to navigate. It feels current without becoming overly corporate.</p>
+            <p><strong>Panozzo Gap:</strong> Sheehy packages its trust story more clearly online. Panozzo can compete well here by making its own deeper family legacy more visible and immediate.</p>
+          </div>
+        </div>
+
+        <div class="card hover:shadow-xl transition-shadow border-t-4 border-red-500 bg-red-50">
+          <h3 class="font-bold text-xl mb-1">Orland Funeral Home</h3>
+          <p class="text-sm text-slate-500 mb-4">Status: Dignity Memorial (SCI Corporate)</p>
+          <div class="space-y-3 text-sm">
+            <p><strong>Positioning:</strong> Highly polished and efficient, with a strong emphasis on convenience, planning, and large-network credibility.</p>
+            <p><strong>Trust Signals:</strong> Corporate branding, facility presentation, and structured calls-to-action are strong, but the local family element is weaker.</p>
+            <p><strong>UX Quality:</strong> Very polished and conversion-oriented. Easy to use, but more transactional in tone.</p>
+            <p><strong>Panozzo Gap:</strong> This is an important contrast point. Panozzo does not need to imitate the corporate model. It can win by making family ownership, local decision-making, and personal trust much more explicit.</p>
+          </div>
+        </div>
+
+        <div class="card hover:shadow-xl transition-shadow border-t-4 border-slate-400">
+          <h3 class="font-bold text-xl mb-1">Colonial Chapel</h3>
+          <p class="text-sm text-slate-500 mb-4">Status: Modernized Independent</p>
+          <div class="space-y-3 text-sm">
+            <p><strong>Positioning:</strong> More modern and service-driven, with visible emphasis on cremation options, facilities, and practical planning.</p>
+            <p><strong>Trust Signals:</strong> Uses service offerings, facilities, and testimonials to build confidence more than family depth.</p>
+            <p><strong>UX Quality:</strong> Well-structured and current. Feels organized and easy to use.</p>
+            <p><strong>Panozzo Gap:</strong> Colonial does a good job packaging modern service options. Panozzo can offer similar clarity while grounding it in a much stronger long-term family trust story.</p>
+          </div>
+        </div>
+
+        <div class="card hover:shadow-xl transition-shadow border-t-4 border-slate-400">
+          <h3 class="font-bold text-xl mb-1">Vandenberg Funeral Home</h3>
+          <p class="text-sm text-slate-500 mb-4">Status: Traditional Independent</p>
+          <div class="space-y-3 text-sm">
+            <p><strong>Positioning:</strong> Traditional, established, and rooted in local reputation. The tone is steady and familiar.</p>
+            <p><strong>Trust Signals:</strong> Years in business, planning options, and a reputation for community presence all help support the brand.</p>
+            <p><strong>UX Quality:</strong> Functional and adequate, though not especially refined.</p>
+            <p><strong>Panozzo Gap:</strong> Vandenberg shows how traditional trust still works online, but Panozzo has an opportunity to present that same steadiness with a clearer and more polished trust story.</p>
+          </div>
+        </div>
+
+        <div class="card hover:shadow-xl transition-shadow border-t-4 border-slate-400">
+          <h3 class="font-bold text-xl mb-1">Modell Funeral Home</h3>
+          <p class="text-sm text-slate-500 mb-4">Status: Established Family-Owned Competitor</p>
+          <div class="space-y-3 text-sm">
+            <p><strong>Positioning:</strong> Strong family continuity and professional care. The site emphasizes long-standing service, family ownership, and a broad service offering without feeling overly corporate.</p>
+            <p><strong>Trust Signals:</strong> Clear family history, named owners and staff, facility presentation, service pages, and a steady tone of professionalism and compassion.</p>
+            <p><strong>UX Quality:</strong> More current and structured than many older independent sites. Easy to navigate, service-oriented, and built to reassure rather than overwhelm.</p>
+            <p><strong>Panozzo Gap:</strong> Modell does a better job packaging family ownership online. Panozzo still has the stronger story for this specific market context, but that story needs to be much more visible on the homepage and throughout the site.</p>
+          </div>
+        </div>
+
+        <div class="card hover:shadow-xl transition-shadow border-t-4 border-slate-400">
+          <h3 class="font-bold text-xl mb-1">Lawn Funeral Home</h3>
+          <p class="text-sm text-slate-500 mb-4">Status: Multi-Location Independent</p>
+          <div class="space-y-3 text-sm">
+            <p><strong>Positioning:</strong> Built around coverage, reliability, and broad service across multiple communities.</p>
+            <p><strong>Trust Signals:</strong> Scale and familiarity help create stability, though the emotional connection feels less personal than some family-owned competitors.</p>
+            <p><strong>UX Quality:</strong> Functional and utilitarian. It gets people where they need to go, but is less distinct in tone.</p>
+            <p><strong>Panozzo Gap:</strong> Lawn’s multi-location presence creates convenience, but Panozzo can frame its more personal, direct, and family-led experience as a strength.</p>
+          </div>
+        </div>
+
+        <div class="card hover:shadow-xl transition-shadow border-t-4 border-slate-400">
+          <h3 class="font-bold text-xl mb-1">Brady-Gill Funeral Home</h3>
+          <p class="text-sm text-slate-500 mb-4">Status: Progressive Independent</p>
+          <div class="space-y-3 text-sm">
+            <p><strong>Positioning:</strong> A softer, support-oriented presentation with visible emphasis on grief resources and aftercare.</p>
+            <p><strong>Trust Signals:</strong> Community care, support resources, and a more visible emotional support posture strengthen the site.</p>
+            <p><strong>UX Quality:</strong> Warm and accessible. The site is easier to navigate than many older independent sites.</p>
+            <p><strong>Panozzo Gap:</strong> Brady-Gill does a strong job showing ongoing support beyond the service itself. Panozzo could borrow some of that visibility while keeping its own tone and identity.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="tools" class="mb-16">
+      <div class="card bg-slate-800 text-white">
+        <h2 class="text-3xl font-bold mb-6 text-white border-b border-slate-600 pb-2">D. Technology Trade-offs</h2>
+        <p class="text-slate-300 mb-8 text-lg">
+          Nearby funeral homes are adopting more digital tools, but not every trend is automatically right for a trust-first family business. The better question is not “What is everyone else doing?” It is “What genuinely helps families while still fitting the Panozzo style?”
+        </p>
+
+        <div class="flex flex-col space-y-6">
+
+          <div class="bg-slate-700 p-6 rounded-lg border-l-4 border-secondary-accent">
+            <h3 class="text-xl font-bold mb-2 flex items-center">
+              <span class="mr-2 text-2xl">📊</span> Online Cost Estimators / Pricing Tools
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+              <div>
+                <p class="text-sm text-slate-300 font-semibold mb-1">Why Competitors Use Them:</p>
+                <ul class="list-disc pl-5 text-sm text-slate-300 space-y-1">
+                  <li>They help capture families who are researching options online.</li>
+                  <li>They create a sense of transparency and convenience.</li>
+                  <li>They can appeal to more price-sensitive or planning-focused users.</li>
+                </ul>
+              </div>
+              <div>
+                <p class="text-sm text-red-300 font-semibold mb-1">Trade-off for Panozzo:</p>
+                <ul class="list-disc pl-5 text-sm text-slate-300 space-y-1">
+                  <li>They can make the experience feel more transactional.</li>
+                  <li>They can reduce a complex, emotional service into a numbers-first interaction.</li>
+                  <li>They may not fit Allen’s more trust-based style.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-4 bg-slate-800 p-3 rounded text-sm text-teal-300">
+              <strong>Option for Consideration:</strong> Rather than a formal cost estimator, Panozzo could offer a simple planning guide or starting-point overview that gives families some clarity without making the experience feel transactional.
+            </div>
+          </div>
+
+          <div class="bg-slate-700 p-6 rounded-lg border-l-4 border-secondary-accent">
+            <h3 class="text-xl font-bold mb-2 flex items-center">
+              <span class="mr-2 text-2xl">💻</span> Fully Online Arrangements
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+              <div>
+                <p class="text-sm text-slate-300 font-semibold mb-1">Why Competitors Use Them:</p>
+                <ul class="list-disc pl-5 text-sm text-slate-300 space-y-1">
+                  <li>They reduce staff time for certain simpler service types.</li>
+                  <li>They can help families coordinating from out of town.</li>
+                  <li>They fit the direction some operators are taking toward remote convenience.</li>
+                </ul>
+              </div>
+              <div>
+                <p class="text-sm text-red-300 font-semibold mb-1">Trade-off for Panozzo:</p>
+                <ul class="list-disc pl-5 text-sm text-slate-300 space-y-1">
+                  <li>They can feel too impersonal for a family-first brand.</li>
+                  <li>They risk making an emotional process feel like an online checkout flow.</li>
+                  <li>They may not match Allen’s style of guiding families personally.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-4 bg-slate-800 p-3 rounded text-sm text-teal-300">
+              <strong>Option for Consideration:</strong> Full online arrangements may not fit the Panozzo style. A better middle ground could be keeping the personal conversation at the center while making certain parts easier for families who are coordinating remotely.
+            </div>
+          </div>
+
+          <div class="bg-slate-700 p-6 rounded-lg border-l-4 border-secondary-accent">
+            <h3 class="text-xl font-bold mb-2 flex items-center">
+              <span class="mr-2 text-2xl">📱</span> Digital Guestbooks / iPad Sign-ins
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+              <div>
+                <p class="text-sm text-slate-300 font-semibold mb-1">Why Competitors Use Them:</p>
+                <ul class="list-disc pl-5 text-sm text-slate-300 space-y-1">
+                  <li>They solve the problem of unreadable handwriting.</li>
+                  <li>They make follow-up and thank-you processes easier.</li>
+                  <li>They create cleaner records and can be more convenient for some guests.</li>
+                </ul>
+              </div>
+              <div>
+                <p class="text-sm text-red-300 font-semibold mb-1">Trade-off for Panozzo:</p>
+                <ul class="list-disc pl-5 text-sm text-slate-300 space-y-1">
+                  <li>Some guests may still prefer the familiarity of writing in a book.</li>
+                  <li>Going fully digital could feel like too much of a break from tradition.</li>
+                  <li>Allen’s concern about older attendees is understandable, even if comfort with technology is improving.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="mt-4 bg-slate-800 p-3 rounded text-sm text-teal-300">
+              <strong>Option for Consideration:</strong> A hybrid approach may make the most sense here — keep the traditional register book, but consider offering a digital option alongside it for readability, follow-up, and convenience when appropriate.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="action" class="mb-16">
+      <h2 class="text-3xl font-bold mb-6 text-primary-dark">E. Gap Analysis &amp; Action Plan</h2>
+      <p class="text-slate-700 mb-8 text-lg">
+        Panozzo does not need a flashy, overbuilt digital presence. It needs a clearer online expression of the trust, family continuity, and reputation it has already earned offline. These are the main gaps and the most practical next steps.
+      </p>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+
+        <div class="card">
+          <h3 class="text-xl font-bold mb-4 text-primary-dark border-b pb-2">F. Specific Gap Analysis</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <span class="text-red-500 mr-2 mt-1">✕</span>
+              <div>
+                <strong class="text-slate-800">Current Gap: The 100-Year Story Is Underweighted</strong>
+                <p class="text-sm text-slate-600">The 100-year story is not carrying enough weight on the homepage or across the main visitor journey.</p>
+                <p class="text-sm text-primary-accent mt-1"><strong>Fix:</strong> Make the anniversary and family continuity a major homepage message, supported by real writing and real photos.</p>
+              </div>
+            </li>
+
+            <li class="flex items-start">
+              <span class="text-red-500 mr-2 mt-1">✕</span>
+              <div>
+                <strong class="text-slate-800">Current Gap: Reputation Is Not Visible Enough Online</strong>
+                <p class="text-sm text-slate-600">Families may already know the Panozzo name, but newer visitors do not immediately see that same reputation reinforced online.</p>
+                <p class="text-sm text-primary-accent mt-1"><strong>Fix:</strong> Feature a few strong Google reviews directly on the homepage and in other key areas of the site.</p>
+              </div>
+            </li>
+
+            <li class="flex items-start">
+              <span class="text-red-500 mr-2 mt-1">✕</span>
+              <div>
+                <strong class="text-slate-800">Current Gap: Service Area Could Be Clearer</strong>
+                <p class="text-sm text-slate-600">The business serves a broader area than the current site fully communicates.</p>
+                <p class="text-sm text-primary-accent mt-1"><strong>Fix:</strong> Make the broader service area more explicit and easier to understand, especially for families in nearby communities who may not immediately realize Panozzo serves them.</p>
+              </div>
+            </li>
+
+            <li class="flex items-start">
+              <span class="text-red-500 mr-2 mt-1">✕</span>
+              <div>
+                <strong class="text-slate-800">Current Gap: Mobile Experience Needs Improvement</strong>
+                <p class="text-sm text-slate-600">A lot of site traffic is likely coming from phones, yet the mobile experience does not feel as strong or as clear as it should.</p>
+                <p class="text-sm text-primary-accent mt-1"><strong>Fix:</strong> Improve mobile hierarchy, make contact options more obvious, and simplify the first actions a family would take on a phone.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card bg-blue-50 border-blue-200">
+          <h3 class="text-xl font-bold mb-4 text-primary-dark border-b border-blue-200 pb-2">G. Recommended Homepage Structure</h3>
+          <div class="space-y-3">
+            <div class="bg-white p-3 rounded shadow-sm border-l-4 border-primary-dark">
+              <strong>1. The Opening Section:</strong> A strong hero image or photo section featuring the building, family, or a meaningful legacy visual, with clear next-step actions for families who need help now.
+            </div>
+            <div class="bg-white p-3 rounded shadow-sm border-l-4 border-primary-accent">
+              <strong>2. The 100-Year Story:</strong> A short, strong section on the anniversary, family continuity, and what the Panozzo name has meant to families over time.
+            </div>
+            <div class="bg-white p-3 rounded shadow-sm border-l-4 border-secondary-accent">
+              <strong>3. Service Paths:</strong> Clear pathways for traditional funerals, cremation options, celebrations of life, and planning ahead.
+            </div>
+            <div class="bg-white p-3 rounded shadow-sm border-l-4 border-slate-400">
+              <strong>4. Reviews and Trust Signals:</strong> A few strong reviews, along with service area clarity and a warmer sense of reassurance.
+            </div>
+            <div class="bg-white p-3 rounded shadow-sm border-l-4 border-slate-400">
+              <strong>5. Planning Ahead:</strong> A softer, trust-based planning section that feels like guidance rather than sales pressure.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <div class="card">
+          <h3 class="text-xl font-bold mb-4 text-primary-dark">H. Recommended Photo List</h3>
+          <p class="text-sm text-slate-600 mb-3">Real imagery will likely strengthen trust more than almost any design change alone.</p>
+          <ul class="list-disc pl-5 text-sm text-slate-700 space-y-2">
+            <li><strong>Historic Family Photos:</strong> Older family, building, or Roseland-era images that reinforce the 100-year story.</li>
+            <li><strong>Current Family Photos:</strong> Warm, professional photos of Allen and the current generation connected to the building and business.</li>
+            <li><strong>Building Exterior:</strong> Strong current photos of the funeral home that feel welcoming and recognizable.</li>
+            <li><strong>Interior Spaces:</strong> Bright, calm images of chapels, rooms, and gathering spaces.</li>
+            <li><strong>Meaningful Detail Shots:</strong> Smaller touches that communicate care, dignity, and professionalism.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 class="text-xl font-bold mb-4 text-primary-dark">I. 30-Day Action Plan</h3>
+          <div class="space-y-4">
+            <div>
+              <h4 class="font-bold text-sm text-red-600 uppercase tracking-wider">Quick Wins (Days 1-10)</h4>
+              <ul class="list-disc pl-5 text-sm text-slate-700">
+                <li>Develop homepage-ready 100th anniversary copy from Allen’s voice notes.</li>
+                <li>Add a few strong Google reviews to the site.</li>
+                <li>Make key contact options and immediate-need actions clearer, especially on mobile.</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-bold text-sm text-secondary-accent uppercase tracking-wider">Medium Lift (Days 11-20)</h4>
+              <ul class="list-disc pl-5 text-sm text-slate-700">
+                <li>Gather and organize family, historic, and current building photos.</li>
+                <li>Strengthen the family-story and service-area messaging across the site.</li>
+                <li>Add an automatic contact confirmation so families know their message went through.</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-bold text-sm text-primary-accent uppercase tracking-wider">Rebuild-Level Work (Days 21-30)</h4>
+              <ul class="list-disc pl-5 text-sm text-slate-700">
+                <li>Outline a fuller homepage and site structure based on trust, family story, and mobile clarity.</li>
+                <li>Decide whether the best path is improving the current site in stages or planning a more complete rebuild.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
   </div>
 
-  <script>
-    const toggle = document.querySelector('.nav-toggle');
-    const nav = document.querySelector('.site-nav');
+  <footer class="bg-slate-900 text-slate-400 py-6 text-center text-xs">
+    <p>Prepared for Panozzo Bros. Funeral Home. Strategic context: 2026 competitive landscape.</p>
+    <p class="mt-2 text-slate-600">Technical note: all visualizations use Canvas-based rendering.</p>
+  </footer>
 
-    if (toggle && nav) {
-      toggle.addEventListener('click', () => {
-        const isOpen = nav.classList.toggle('is-open');
-        toggle.setAttribute('aria-expanded', String(isOpen));
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+      const wrapLabel = (label) => {
+        if (label.length <= 16) return label;
+        const words = label.split(' ');
+        let lines = [];
+        let currentLine = '';
+        words.forEach(word => {
+          if ((currentLine + word).length > 16) {
+            if (currentLine.trim() !== '') lines.push(currentLine.trim());
+            currentLine = word + ' ';
+          } else {
+            currentLine += word + ' ';
+          }
+        });
+        if (currentLine.trim() !== '') lines.push(currentLine.trim());
+        return lines;
+      };
+
+      const commonTooltipConfig = {
+        callbacks: {
+          title: function(tooltipItems) {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+              return label.join(' ');
+            } else {
+              return label;
+            }
+          }
+        }
+      };
+
+      const scatterCtx = document.getElementById('scatterChart').getContext('2d');
+      new Chart(scatterCtx, {
+        type: 'scatter',
+        data: {
+          datasets: [
+            {
+              label: 'Panozzo Bros.',
+              data: [{ x: 3, y: 5 }],
+              backgroundColor: '#0D9488',
+              pointRadius: 10,
+              pointHoverRadius: 12
+            },
+            {
+              label: 'Robt. J. Sheehy',
+              data: [{ x: 4, y: 4 }],
+              backgroundColor: '#3B82F6',
+              pointRadius: 8
+            },
+            {
+              label: 'Orland FH (SCI)',
+              data: [{ x: 5, y: 1 }],
+              backgroundColor: '#EF4444',
+              pointRadius: 8
+            },
+            {
+              label: 'Colonial Chapel',
+              data: [{ x: 4, y: 3 }],
+              backgroundColor: '#94A3B8',
+              pointRadius: 6
+            },
+            {
+              label: 'Vandenberg',
+              data: [{ x: 3, y: 4 }],
+              backgroundColor: '#94A3B8',
+              pointRadius: 6
+            },
+            {
+              label: 'Modell Funeral Home',
+              data: [{ x: 4, y: 4 }],
+              backgroundColor: '#94A3B8',
+              pointRadius: 6
+            },
+            {
+              label: 'Brady-Gill',
+              data: [{ x: 4, y: 3 }],
+              backgroundColor: '#94A3B8',
+              pointRadius: 6
+            }
+          ]
+        },
+        options: {
+          maintainAspectRatio: false,
+          plugins: {
+            tooltip: commonTooltipConfig,
+            legend: { position: 'bottom' }
+          },
+          scales: {
+            x: {
+              title: { display: true, text: 'Digital Clarity & Ease of Use (1-5)' },
+              min: 0,
+              max: 6
+            },
+            y: {
+              title: { display: true, text: 'Emotional Warmth & Trust (1-5)' },
+              min: 0,
+              max: 6
+            }
+          }
+        }
       });
-    }
+
+      const rawRadarLabels = [
+        'Family Legacy',
+        'Trust & Reassurance',
+        'UX & Mobile Quality',
+        'Pre-Planning Focus',
+        'Local Geo Strength'
+      ];
+
+      const processedRadarLabels = rawRadarLabels.map(wrapLabel);
+
+      const radarCtx = document.getElementById('radarChart').getContext('2d');
+      new Chart(radarCtx, {
+        type: 'radar',
+        data: {
+          labels: processedRadarLabels,
+          datasets: [
+            {
+              label: 'Panozzo Bros.',
+              data: [4, 5, 3, 3, 3],
+              fill: true,
+              backgroundColor: 'rgba(13, 148, 136, 0.2)',
+              borderColor: '#0D9488',
+              pointBackgroundColor: '#0D9488',
+              pointBorderColor: '#fff',
+              pointHoverBackgroundColor: '#fff',
+              pointHoverBorderColor: '#0D9488'
+            },
+            {
+              label: 'Orland FH (SCI)',
+              data: [1, 2, 5, 5, 5],
+              fill: true,
+              backgroundColor: 'rgba(239, 68, 68, 0.2)',
+              borderColor: '#EF4444',
+              pointBackgroundColor: '#EF4444',
+              pointBorderColor: '#fff',
+              pointHoverBackgroundColor: '#fff',
+              pointHoverBorderColor: '#EF4444'
+            },
+            {
+              label: 'Sheehy & Sons',
+              data: [4, 4, 4, 4, 4],
+              fill: true,
+              backgroundColor: 'rgba(59, 130, 246, 0.2)',
+              borderColor: '#3B82F6',
+              pointBackgroundColor: '#3B82F6',
+              pointBorderColor: '#fff',
+              pointHoverBackgroundColor: '#fff',
+              pointHoverBorderColor: '#3B82F6'
+            }
+          ]
+        },
+        options: {
+          maintainAspectRatio: false,
+          plugins: {
+            tooltip: commonTooltipConfig,
+            legend: { position: 'bottom' }
+          },
+          scales: {
+            r: {
+              angleLines: { display: true },
+              suggestedMin: 0,
+              suggestedMax: 5
+            }
+          }
+        }
+      });
+    });
   </script>
 </body>
 </html>
